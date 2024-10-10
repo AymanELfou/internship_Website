@@ -1,0 +1,24 @@
+/* slider.css */
+.carousel-inner {
+    max-height: 450px; /* Set the desired maximum height for the carousel */
+  }
+  
+.carousel-item img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover; /* Makes the image cover the area while maintaining its aspect ratio */
+  }
+
+  
+/* Add space between the navbar and the slider */
+
+.carousel {
+    margin-top: 20px; /* Adjust the value as needed to create space between the navbar and the slider */
+    /* border: 2px solid #ccc; */ /* Ajoute une bordure autour du slider */
+    border-radius: 15px; /* Arrondit les coins de la bordure */
+    overflow: hidden; /* Évite que le contenu déborde de la bordure */
+    margin: 10px;
+    
+      
+}
+  

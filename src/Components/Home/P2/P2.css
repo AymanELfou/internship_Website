@@ -1,0 +1,23 @@
+.custom-btn {
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.custom-btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.about-section {
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+.about-text {
+    padding: 2rem;
+}
+.about-image {
+    height: 100%;
+    object-fit: cover;
+}

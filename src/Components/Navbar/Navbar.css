@@ -1,0 +1,62 @@
+/* slider.css */
+
+/* Add space between the navbar and the slider */
+
+  
+  /* Corrected navbar styling */
+  .navbar {
+    margin: 18px; /* Use px for units to define spacing */
+    padding: 10px 20px; /* Use px for padding as well */
+    border-radius: 15px;
+  }
+
+  .navbar-brand{
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .login-button{
+    background-color: #009970;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s backgroud-color;
+  }
+
+  .login-button:hover{
+    background-color: #00b383;
+  }
+  .navbar-toggler{
+    border:none;
+    font-size: 1.25rem;
+  }
+  .nav-link{
+    color: #666777;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+  }
+  .nav-link:hover, .nav-link.active{
+    color: #000;
+  }
+  .nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #009970;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  .nav-link:hover::before, .nav-link.active::before{
+    width: 100%;
+    visibility: visible;
+  }
+
+  
