@@ -20,7 +20,8 @@ export default function P2() {
                 </div>
             </div>
         </div>
-    </div>
+      </div>
+      
     </div>
   )
 }

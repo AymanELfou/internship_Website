@@ -1,8 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import HomePage from "./Components/Home/HomePage";
-import Pr1 from "./Components/AboutUs/Pr1";
-
+import AboutPage from "./Components/AboutUs/AboutPage";
 function App() {
   return (
     <div>
@@ -12,7 +11,7 @@ function App() {
       {/* Route configuration to display components based on the path */}
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<Pr1 />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </div>
   );

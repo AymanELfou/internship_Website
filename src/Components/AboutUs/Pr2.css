@@ -1,0 +1,20 @@
+body, html {
+    overflow-x: hidden; /* Disable horizontal scroll bar globally */
+}
+
+.paragraph-style {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px 30px; /* Space inside the box */
+    border-radius: 30px; /* Rounded edges */
+    max-width: 80%; /* Restrict width to make it look like a pill */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a lifted effect */
+}
+  
+
+
+.Mrket{
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
