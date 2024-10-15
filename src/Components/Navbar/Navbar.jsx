@@ -4,7 +4,8 @@ import { Link } from  'react-router-dom';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg mx-5 navbar-dark bg-dark">
+    <div className="mx-4">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid mx-3">
         <a className="navbar-brand me-auto" href="#">Brand</a>
         <button
@@ -21,22 +22,22 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav justify-content-center flex-grow-1 pe-3" style={{ height: '50px', alignItems: 'center' }}>
             <li className="nav-item">
-              <Link to="/" className="nav-link active mx-lg-2" aria-current="page" href="#">
+              <Link to="/" className="nav-link active mx-lg-2" aria-current="page" >
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link mx-lg-2" href="#">
+              <Link to="/about" className="nav-link text-white mx-lg-2" >
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="services" className="nav-link mx-lg-2" href="#">
+              <Link to="/services" className="nav-link text-white mx-lg-2" >
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link mx-lg-2" href="#">
+              <Link to="/contact" className="nav-link text-white mx-lg-2" >
                 Contact
               </Link>
             </li>
@@ -45,5 +46,6 @@ export default function Navbar() {
         <a href="#" className='login-button'>Login</a>
       </div>
     </nav>
+    </div>
   );
 }  

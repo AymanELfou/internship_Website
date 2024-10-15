@@ -34,9 +34,10 @@
     font-size: 1.25rem;
   }
   .nav-link{
-    color: #666777;
+    color: white;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
   }
   .nav-link:hover, .nav-link.active{
