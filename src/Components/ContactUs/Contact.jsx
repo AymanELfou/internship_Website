@@ -8,7 +8,7 @@ export default function Contact() {
           <div className="col-md-8 col-lg-6">
             <div className="card bg-dark text-white">
               <div className="card-body">
-                <h2 className="card-title text-center mb-4">Contact form</h2>
+                <h2 className="card-title text-center mb-5">Contact form</h2>
                 <p className="text-center small mb-4">Below is a map showing the location and a form for you to fill in your details</p>
                 
                 <form>
