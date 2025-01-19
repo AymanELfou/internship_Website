@@ -7,7 +7,9 @@ export default function Navbar() {
     <div className="mx-4">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid mx-3">
-        <a className="navbar-brand me-auto" href="#">Brand</a>
+        <Link to="/" className="navbar-brand me-auto" aria-current="page">
+          Green House
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
